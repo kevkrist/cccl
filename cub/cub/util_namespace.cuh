@@ -194,7 +194,7 @@
  */
 #define CUB_NAMESPACE_BEGIN \
   CUB_NS_PREFIX             \
-  namespace cub             \
+  namespace my_cub             \
   {                         \
   CUB_DETAIL_MAGIC_NS_BEGIN
 
@@ -216,7 +216,7 @@ CUB_NS_PREFIX
  *  \brief \p cub is the top-level namespace which contains all CUB
  *         functions and types.
  */
-namespace cub
+namespace my_cub
 {
 }
 
